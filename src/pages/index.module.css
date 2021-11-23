@@ -21,3 +21,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.getStartedButton {
+  display: flex;
+  align-items: center;
+}
+
+.rightArrow {
+  margin-left: 8px;
+  height: 22px;
+  width: auto;
+}

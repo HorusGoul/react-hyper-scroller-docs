@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "React Hyper Scroller",
-  tagline: "Hyper-fast virtual list for React web-apps",
+  tagline: "Hyper-fast virtual list for React",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/HorusGoul/react-hyper-scroller-docs/edit/main/website/",
+            "https://github.com/HorusGoul/react-hyper-scroller-docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -48,7 +48,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           {
             href: "https://github.com/HorusGoul/react-hyper-scroller",
@@ -64,7 +64,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Getting Started",
                 to: "/docs/intro",
               },
             ],
@@ -73,8 +73,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/react-hyper-scroller",
+                label: "Forum & Support",
+                href: "https://github.com/HorusGoul/react-hyper-scroller/discussions",
               },
               {
                 label: "Twitter",
@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: "horus.dev",
-                to: "https://horus.dev",
+                href: "https://horus.dev",
               },
               {
                 label: "GitHub",
@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} react-hyper-scroller. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Horus Lugo. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

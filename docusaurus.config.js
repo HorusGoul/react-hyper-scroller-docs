@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer/themes/nightOwlLight");
+const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -26,6 +26,12 @@ const config = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/HorusGoul/react-hyper-scroller-docs/edit/main/",
+          remarkPlugins: [
+            [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
+          ],
+        },
+        pages: {
+          remarkPlugins: [require("@docusaurus/remark-plugin-npm2yarn")],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

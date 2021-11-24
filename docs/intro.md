@@ -14,6 +14,10 @@ In the project of your choice, open a terminal and run the following command to 
 npm install react-hyper-scroller@next
 ```
 
+:::info
+If you're targeting old browsers, you'll need to polyfill the **[`ResizerObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)** API.
+:::
+
 ## Usage
 
 Let's convert a simple list to a virtual list. This means that instead of rendering the whole list, we will only render a portion of it, making it cheaper in terms of performance.

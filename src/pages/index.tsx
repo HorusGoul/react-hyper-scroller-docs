@@ -32,7 +32,6 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout description="A hyper-fast virtual list for React websites and apps">
       <HomepageHeader />

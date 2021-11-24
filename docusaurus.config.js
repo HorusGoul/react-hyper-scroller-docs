@@ -75,6 +75,26 @@ const config = {
                 label: "Getting Started",
                 to: "/docs/intro",
               },
+              {
+                label: "Props",
+                to: "/docs/props",
+              },
+              {
+                label: "Items with fixed size",
+                to: "/docs/static-lists",
+              },
+              {
+                label: "Items with dynamic size",
+                to: "/docs/dynamic-lists",
+              },
+              {
+                label: "Scroll Restoration",
+                to: "/docs/advanced-features/scroll-restoration",
+              },
+              {
+                label: "Scroll to Item",
+                to: "/docs/advanced-features/scroll-to-item",
+              },
             ],
           },
           {
@@ -94,12 +114,16 @@ const config = {
             title: "More",
             items: [
               {
-                label: "horus.dev",
-                href: "https://horus.dev",
-              },
-              {
                 label: "GitHub",
                 href: "https://github.com/HorusGoul/react-hyper-scroller",
+              },
+              {
+                label: "Stats",
+                href: "https://plausible.io/react-hyper-scroller.horus.dev",
+              },
+              {
+                label: "horus.dev",
+                href: "https://horus.dev",
               },
             ],
           },

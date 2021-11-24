@@ -32,5 +32,5 @@ As you can see in the code, we're creating a list of 500 items. Then, for each i
 And that's it! If you check using Inspect Element, you'll see that the list is now rendered as a virtual list. You could try scrolling down and up to see how the list behaves, also, try to make the list longer to see at which point the performance starts to become an issue.
 
 :::info
-This example is available in [CodeSandbox](https://codesandbox.io/s/react-hyper-scroller-v3-items-with-fixed-size-1-twk37?file=/src/App.js). It may be useful if you want to try out the code directly in your browser!
+This example is available in [CodeSandbox](https://codesandbox.io/s/react-hyper-scroller-v3-items-with-fixed-size-example-1-twk37?file=/src/App.js). It may be useful if you want to try out the code directly in your browser!
 :::

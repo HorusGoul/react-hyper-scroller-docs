@@ -69,7 +69,7 @@ export function MyList() {
 We also need to pass it the `estimatedItemHeight` prop, which should be a number representing the average estimate of the list items. In this case, we'll set it to `175`.
 
 :::note
-Don't worry, this is just an estimate, and it's not required to be accurate, we could set it to `50` and it would still work. Learn more about `estimatedItemHeight` in the [props](#TODO) section.
+Don't worry, this is just an estimate, and it's not required to be accurate, we could set it to `50` and it would still work. Learn more about `estimatedItemHeight` in the [props](/docs/props#estimateditemheight) section.
 :::
 
 ```jsx {12}

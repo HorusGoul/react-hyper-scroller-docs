@@ -11,7 +11,7 @@ Let's create a virtual list in less than five minutes.
 In the project of your choice, open a terminal and run the following command to install the `react-hyper-scroller` package.
 
 ```bash npm2yarn
-npm install react-hyper-scroller@next
+npm install react-hyper-scroller
 ```
 
 :::info

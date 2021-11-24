@@ -4,11 +4,13 @@
 const lightCodeTheme = require("prism-react-renderer/themes/nightOwlLight");
 const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
+const isProd = process.env.NODE_ENV === "production";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "React Hyper Scroller",
   tagline: "Hyper-fast virtual list for React",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://react-hyper-scroller.horus.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -109,6 +111,15 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  scripts: [
+    isProd && {
+      src: "/spycat/js/script.js",
+      defer: true,
+      "data-domain": "react-hyper-scroller.horus.dev",
+      "data-api": "/spycat/api/event",
+    },
+  ].filter(Boolean),
 };
 
 module.exports = config;
